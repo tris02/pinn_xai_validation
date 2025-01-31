@@ -4,7 +4,7 @@
 This repository provides a PINN-XAI machine learning validation script using blended physics-informed neural networks (PINN) with causal constraints, and explanatory AI (XAI) implementation. It includes data preprocessing, feature engineering, PINN-XAI pipeline, and robustness check.
 
 ## Features
-- Uses **PINN** to validate SEM modeling for NFT pricing.
+- Uses **PINN** to validate SEM modeling.
 - Implements **causal constraints** and **explainability techniques (permutation importance, SHAP, PDP, ICE)**.
 - Performs **robustness checks** using **PCA-based factor scores** and **constrained-unconstrained NN**.
 - Supports **model interpretability**.
