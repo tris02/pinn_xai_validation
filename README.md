@@ -40,25 +40,21 @@ python validation_git.py
 ```
 
 ## Explanation of Key Components
-### 1️⃣ Physics-Informed Neural Network (PINN)
+### 1. Physics-Informed Neural Network (PINN)
 The model incorporates factor relationships from SEM model by enforcing constraints on partial derivatives, ensuring interpretability and generalizability.
 
-### 2️⃣ Explainable AI (XAI) Techniques
+### 2. Explainable AI (XAI) Techniques
 - **Permutation Importance**: Measures feature significance by shuffling inputs.
 - **SHAP Values**: Decomposes model predictions into contributions from each input variable.
 - **Partial Dependence & ICE**: Visualizes how a feature impacts predictions.
 
-### 3️⃣ Robustness Checks
+### 3. Robustness Checks
 - PCA-derived factor scores replace manually computed ones to validate the model’s robustness.
 - A comparison is made between constrained and unconstrained models to assess the effect of causal constraints.
-
 
 ## Contributing
 If you’d like to contribute, fork the repository and submit a pull request with improvements.
 
 ## License
 This project is licensed under the MIT License.
-
-## Author
-Tristan Lim - tris02@gmail.com
 
